@@ -218,8 +218,9 @@ function App() {
                       </div>
                     </section>
 
-                    {/* Enterprise Dashboard */}
-                    <MarketplaceDashboard />
+                    <Suspense fallback={null}>
+                      <MarketplaceDashboard />
+                    </Suspense>
 
                     {/* Footer */}
                     <footer style={{
@@ -313,7 +314,9 @@ function App() {
                 </Suspense>
               </AnimatePresence>
 
-              <AIChatbot />
+              <Suspense fallback={null}>
+                <AIChatbot />
+              </Suspense>
               <SupportSystem />
               <Suspense fallback={null}>
                 <ExitIntentPopup onClose={() => { }} />
