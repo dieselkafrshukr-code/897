@@ -4,6 +4,7 @@ import './index.css'
 import ErrorBoundary from './components/Common/ErrorBoundary.tsx'
 import App from './App.tsx'
 
+console.log("React is mounting...");
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ErrorBoundary>
