@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { CatalogService, Product } from '../../services/catalogService';
+import { CatalogService } from '../../services/catalogService';
+import type { Product } from '../../services/catalogService';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
     DollarSign, Package, Users, BarChart3, ArrowUpRight,

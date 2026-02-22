@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { CatalogService, Product } from '../../services/catalogService';
+import { CatalogService } from '../../services/catalogService';
+import type { Product } from '../../services/catalogService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Package, Plus, DollarSign, Image, Tag, Layers, X, Save } from 'lucide-react';
 

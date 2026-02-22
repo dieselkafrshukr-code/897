@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { CatalogService, Category } from '../../services/catalogService';
+import { CatalogService } from '../../services/catalogService';
+import type { Category } from '../../services/catalogService';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Folder, ChevronRight, Trash2, Edit3, Grid } from 'lucide-react';
 

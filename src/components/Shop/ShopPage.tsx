@@ -1,7 +1,8 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, SlidersHorizontal, ChevronDown, X, Grid3X3, LayoutList, Star, TrendingUp, ArrowUpDown, Package } from 'lucide-react';
-import { CatalogService, Product } from '../../services/catalogService';
+import { CatalogService } from '../../services/catalogService';
+import type { Product } from '../../services/catalogService';
 import ProductCard from '../ProductCard/ProductCard';
 
 interface ShopPageProps {
